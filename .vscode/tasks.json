@@ -4,7 +4,7 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: build main.c",
-			"command": "cl.exe",
+			"command": "gcc.exe",
 			"args": [
 				"/I${workspaceFolder}\\include\\",
 				"/I${FREERTOS_PATH}\\FreeRTOS\\Source\\include\\",
